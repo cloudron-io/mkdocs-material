@@ -34,8 +34,8 @@
   left: 0;
   height: 5.6rem;
   transition: background-color 0.25s;
-  background-color: $md-color-primary;
-  color: $md-color-white;
+  background-color: $md-color-white;
+  color: $md-color-black;
   z-index: 2;
   // Hack: putting the header on the GPU avoids unnecessary repaints
   backface-visibility: hidden;
@@ -126,12 +126,12 @@
 
   // Parent page title
   &__parent {
-    color: $md-color-white--light;
+    color: $md-color-black--light;
 
     // Ancestor separator
     &::after {
       display: inline;
-      color: $md-color-white--lighter;
+      color: $md-color-black--lighter;
       content: "/";
     }
 
